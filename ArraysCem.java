@@ -10,9 +10,9 @@ public class ArraysCem
 {
    public static void main(String[] args){
        int[] arrayCem = new int[100];
-       int i, num=0;
+       int i;
        for(i=0; i<100; i++){
-           arrayCem[i] = num++;
+           arrayCem[i] = i;
            System.out.println(arrayCem[i]);
        }
    }
